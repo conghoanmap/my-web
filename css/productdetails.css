@@ -1,0 +1,493 @@
+.pd-path {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-bottom: 1px solid rgb(211, 211, 220);
+}
+
+.pd-path h1 {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.star-point {
+    font-size: 20px;
+    color: gold;
+}
+
+.pd-left {
+    width: 760px;
+    float: left;
+    margin-left: 150px;
+}
+
+.pd-right {
+    width: 420px;
+    float: right;
+    margin-right: 150px;
+}
+
+.image-gallery {
+    text-align: center;
+    position: relative;
+}
+
+.current-image {
+    width: 300px;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.previous-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.previous-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+
+.previous-button,
+.next-button {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.previous-button:hover,
+.next-button:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.image-index {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.regime {
+    margin-top: 50px;
+    border: 1px solid #4dc24b;
+}
+
+.regime-column {
+    display: inline-block;
+    width: 45%;
+    margin: 15px;
+}
+
+.icon-regime {
+    display: inline-block;
+    font-size: 38px;
+    color: #4dc24b;
+}
+
+.regime-column p span {
+    color: #4dc24b;
+    cursor: pointer;
+}
+
+.regime-column p {
+    height: 35px;
+    display: inline;
+}
+
+.product-reviews {
+    margin-top: 30px;
+    border: 1px solid darkgray;
+    border-radius: 8px;
+}
+
+.number-star {
+    display: inline-block;
+    border-right: 1px solid rgb(221, 214, 214);
+    padding-left: 20px;
+    width: 300px;
+    margin: 20px;
+}
+
+.sub-number-star {
+    color: goldenrod;
+    display: inline-block;
+}
+
+.list-img-preview {
+    width: 250px;
+    display: inline-block;
+}
+
+.preview-img {
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    display: inline;
+}
+
+.comment-preview {
+    margin-top: 50px;
+}
+
+.comment-preview-column {
+    margin-left: 20px;
+    margin-bottom: 40px;
+    border-top: 1px solid rgb(222, 220, 220);
+    width: 90%;
+}
+.comment-preview-colum > p{
+    margin: 15px 0;
+}
+.writting-comment{
+    cursor: pointer;
+    margin-left: 105px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-radius: 8px;
+    width: 35%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #4dc24b;
+    color: white;
+}
+.see-more-comment{
+    cursor: pointer;
+    border: 1px solid #4dc24b;
+    display: inline-block;
+    border-radius: 8px;
+    width: 35%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    color: #4dc24b;
+}
+.box-save {
+    height: 430px;
+    background-color: #e2252d;
+    border-radius: 10px;
+}
+
+.box-save-left {
+    display: inline-block;
+    width: 45%;
+    margin: 5px;
+}
+
+#box-save-left-name {
+    color: aliceblue;
+}
+
+#box-save-left-price {
+    margin-top: 5px;
+    color: rgb(245, 184, 30);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#box-save-left-discount {
+    margin-top: 5px;
+    color: aliceblue;
+}
+
+.box-save-right {
+    float: right;
+    text-align: right;
+    display: inline-block;
+    width: 35%;
+    margin: 10px;
+}
+
+#box-save-right-amount {
+    float: right;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100px;
+    line-height: 15px;
+    height: 15px;
+    background-color: coral;
+    font-size: 12px;
+}
+
+.bs-content {
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.hd-content {
+    margin-top: 20px;
+}
+
+.nb {
+    background-color: #4a90e2;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 11px;
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 2px;
+    text-align: center;
+    width: 16px;
+}
+
+.detail {
+    color: #4a90e2;
+    cursor: pointer;
+}
+
+.promo-code {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.sub-bs-content {
+    border: 0;
+    border-bottom: 1px dashed #f2994a;
+    margin-bottom: 10px;
+    padding: 7px 7px 10px 7px;
+    border-radius: 0;
+}
+
+.accumulated-points {
+    margin: 0 5px;
+    background-color: aliceblue;
+    border: 0;
+    border-bottom: 1px dashed #f2994a;
+    margin-bottom: 10px;
+    padding: 7px 7px 10px 7px;
+    border-radius: 0;
+}
+
+.icon-person {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgb(243, 250, 41);
+    border-radius: 50%;
+}
+
+.sub-accumulated-points {
+    display: flex;
+    align-items: center;
+    background-color: #fffbe5;
+    border-radius: 100px;
+    padding: 5px;
+    width: fit-content;
+    position: relative;
+}
+
+.buy-now-clause {
+    width: 85%;
+    list-style-type: circle;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.buy-now {
+    height: 125px;
+}
+
+.buy-now-btn {
+    text-align: center;
+    background-color: #d0021c;
+    color: #fff;
+    margin-left: 20px;
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+.border8 {
+    background-color: #f1f1f1;
+    height: 1px;
+    position: relative;
+    margin: 20px 0 15px 0;
+}
+
+.border8 span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    width: 160px;
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+}
+
+.box-price-old {
+    color: #666;
+    font-size: 16px;
+    text-decoration-line: line-through;
+}
+
+.box-price-present {
+    color: #d0021c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-price-percent {
+    color: #d0021c;
+    font-size: 16px;
+}
+
+.label--black {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.box-price-present,
+.box-price-old,
+.box-price-percent {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.hcm {
+    cursor: pointer;
+    color: #2f80ed;
+}
+
+.qc3 {
+    margin: 30px 0;
+    width: 100%;
+}
+
+.pr-top {
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 8px 10px;
+}
+
+.pr-txtb {
+    font-weight: bold;
+}
+
+.pr-top .pr-txt {
+    color: #666;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 5px;
+    font-style: normal;
+}
+
+.pr-content {
+    border: 1px solid rgb(240, 240, 240);
+}
+
+.list-content {
+    margin: 10px;
+    list-style-type: none;
+}
+
+.list-content li {
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.check-in {
+    margin-top: 20px;
+}
+
+.sub-check-in {
+    color: #2f80ed;
+}
+
+.buy-right-now {
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    height: 45px;
+    line-height: 45px;
+    margin: 10px 0;
+}
+
+#brn-top {
+    background-color: #fb6e2e;
+}
+
+#brn-bot {
+    background-color: #2f80ed;
+}
+
+#brn-bot span {
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 2px;
+}
+
+.icon-check {
+    color: #4dc24b;
+}
+
+.icon-gift {
+    color: #e2252d;
+}
+
+.sub-list-content {
+    margin-left: 25px;
+    width: 80%;
+}
+
+.three-pr-top {
+    margin: 5px 0;
+}
+.grey-box{
+    border-radius: 7px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f5f5f5;
+}
+.gray-box{
+    border-radius: 7px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+}
+.name-index {
+    font-size: 14px;
+    float: left;
+    margin-left: 10px;
+    display: inline;
+    width: 45%;
+}
+
+.value-index {
+    font-size: 14px;
+    float: right;
+    margin-right: 70px;
+    display: inline-block;
+    width: 35%;
+}
+.box-save h2{
+    margin-bottom: 20px;
+}

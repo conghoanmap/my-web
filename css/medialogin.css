@@ -1,0 +1,172 @@
+@media screen and (max-width: 480px) {
+    .head-first {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 6px 0px;
+        background-color: beige;
+    }
+
+    .head-first p {
+        float: none;
+        margin-left: 0;
+    }
+
+    .head-first p span {
+        color: #4fae4e;
+        font-weight: bold;
+        display: inline;
+    }
+
+    .cnt-account {
+        width: 100%;
+    }
+
+    .cnt-account ul {
+        float: none;
+        margin-right: 0px;
+        display: inline;
+    }
+
+    .head-second img {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 60%;
+    }
+
+    #alll {
+        display: none;
+    }
+
+    .head-second {
+        text-align: center;
+    }
+
+    .phone-email {
+        left: 0px;
+        top: 0px;
+        display: inline;
+        position: relative;
+    }
+
+    .head-second .phone-email p {
+        border-right: none;
+    }
+
+    .phone-email input {
+        width: 60%;
+    }
+
+    .brr {
+        display: block;
+    }
+
+    .amount {
+        display: none;
+    }
+
+    .phone-email a {
+        display: none;
+    }
+
+    .head-third ul {
+        margin-left: 0px;
+    }
+
+    .head-third ul li {
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display: inline;
+    }
+
+    .head-third ul li a {
+        font-size: 15px;
+    }
+
+
+    .form-container {
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 20px;
+        width: 90%;
+        padding: 20px 0;
+    }
+
+    .form-container label {
+        float: left;
+        margin-left: 20px;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container input[type="password"],
+    .form-container select {
+        width: 80%;
+        padding: 8px;
+    }
+
+    .form-container button {
+        width: 85%;
+        padding: 10px;
+    }
+
+    .gmail-button,
+    .facebook-button {
+        width: 85%;
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+
+    .footer {
+        float: none;
+    }
+
+    .trademark,
+    .much-search {
+        margin-left: 20px;
+    }
+
+    .brand-catalog {
+        text-align: left;
+    }
+
+    .brand-page ul li {
+        display: block;
+    }
+
+    .footer-column {
+        margin-left: 20px;
+        position: relative;
+        left: 20px;
+        padding-top: 30px;
+        display: flex;
+        width: 96%;
+    }
+
+    #footer-column-1,
+    #footer-column-2,
+    #footer-column-3,
+    #footer-column-4 {
+        left: 0;
+    }
+
+    .footer-image {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        height: 70px;
+        top: 0px;
+    }
+
+    .footer-bottom p {
+        padding-top: 20px;
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    .student-and-project-introduction {
+        display: none;
+    }
+}

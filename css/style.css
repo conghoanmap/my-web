@@ -1,0 +1,395 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+::selection {
+    background-color: #4fae4e;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.head-first {
+    display: flex;
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    padding: 6px 0px;
+    background-color: beige;
+}
+
+.head-first p {
+    flex-grow: 1;
+    margin-left: 150px;
+    float: left;
+    padding: 6px 0px;
+    background-color: beige;
+}
+
+.head-first p span {
+    color: #4fae4e;
+    font-weight: bold;
+    display: inline;
+}
+.cnt-account{
+    margin-top: 7px;
+    flex-grow: 0;
+    width: 28%;
+}
+.cnt-account ul {
+    list-style-type: none;
+}
+
+.cnt-account ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.cnt-account ul li a {
+    z-index: 999;
+    opacity: 0.8;
+    text-decoration: none;
+    color: black;
+}
+
+/*------------------------------------------------------------*/
+
+.head-second img {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 15%;
+}
+
+.head-second a {
+    margin: 0 80px;
+    display: inline;
+}
+
+.brr {
+    display: none;
+}
+
+.phone-email {
+    width: auto;
+    left: 480px;
+    top: 80px;
+    display: inline;
+    position: absolute;
+}
+
+.head-second .phone-email p {
+    opacity: 0.8;
+    display: inline;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 40px;
+    border-right: 1px solid rgb(93, 91, 91);
+}
+
+.head-second .phone-email p i {
+    color: #4dc24b;
+}
+
+.phone-email button {
+    width: 80px;
+    height: 37px;
+}
+
+.phone-email input {
+    margin: 10px 0;
+    width: 450px;
+    height: 35px;
+    top: 130px;
+    left: 500px;
+}
+
+.phone-email label {
+    margin-left: 100px;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.phone-email label span {
+    color: #4dc24b;
+}
+
+.phone-email a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #1a1c1a;
+    border-radius: 2px;
+    margin-left: 100px;
+    background: none;
+    width: 250px;
+    height: 40px;
+    padding: 9px;
+}
+
+.phone-email a i:nth-of-type(2) {
+    text-decoration: underline;
+    color: #4dc24b;
+}
+
+.amount {
+    color: white;
+    left: 70%;
+    top: 10px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4dc24b;
+}
+
+/*------------------------------------------------------------*/
+.head-third {
+    position: relative;
+    top: 30px;
+    background-color: #4fae4e;
+}
+
+.head-third ul {
+    margin-left: 200px;
+    padding: 20px 0;
+}
+
+.head-third ul li {
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline;
+}
+
+.head-third ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.sub-product {
+    z-index: 999;
+    background-color: antiquewhite;
+    border: 1px solid gray;
+    border-top: none;
+    display: none;
+    position: absolute;
+    top: 63px;
+    left: 200px;
+    /* display: none; */
+    background-color: white;
+}
+
+.phone-menu {
+    display: none;
+}
+
+.nd-sub-product tr td {
+    width: auto;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.nd-sub-product tr td a {
+    color: black;
+    font-size: 15px;
+    margin-right: 140px;
+    margin-left: 20px;
+}
+
+.head-third ul li a:hover {
+    color: black;
+}
+
+.head-third ul li:hover .sub-product {
+    display: flex;
+}
+
+.sub-product-two {
+    z-index: 999;
+    border: 1px solid gray;
+    border-top: none;
+    display: none;
+    position: absolute;
+    top: 63px;
+    left: 500px;
+    /* display: none; */
+    background-color: white;
+}
+
+.sub-product-two .nd-sub-product tr td>a {
+    color: black;
+    font-size: 15px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.head-third ul li:hover .sub-product-two {
+    display: flex;
+}
+
+.sub-product-thr {
+    background-color: white;
+    z-index: 999;
+    border: 1px solid gray;
+    border-left: none;
+    position: absolute;
+    top: 0px;
+    left: 206px;
+    display: none;
+}
+
+.nd-sub-product .sub-product-thr tr td>a {
+    margin-right: 120px;
+    margin-left: 20px;
+}
+
+.nd-sub-product tr td:hover .sub-product-thr {
+    display: flex;
+}
+
+.nd-sub-product tr td>a {
+    transition: 0.2s ease-in-out;
+}
+
+.nd-sub-product tr td>a:hover {
+    padding-left: 5px;
+    color: #4fae4e;
+    transform: translateX(10px);
+}
+
+/*=========================================================*/
+
+/*============================================*/
+
+.footer {
+    margin-top: 58px;
+    width: 100%;
+    float: right;
+}
+
+.footer-column {
+    position: absolute;
+    padding-top: 30px;
+    display: inline-block;
+    width: 24%;
+}
+
+.footer-column ul {
+    list-style-type: none;
+}
+
+.footer-column ul li {
+    padding: 5px 0;
+}
+
+.footer-column ul li a {
+    padding: 5px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    color: #4fae4e;
+}
+
+.phone-number {
+    color: #4dc24b;
+}
+
+.footer-image {
+    width: 350px;
+}
+
+.social-network {
+    display: inline-block;
+}
+
+#footer-column-1 {
+    left: 150px;
+}
+
+#footer-column-2 {
+    left: 450px;
+}
+
+#footer-column-3 {
+    left: 750px;
+}
+
+#footer-column-4 {
+    left: 1050px;
+}
+
+.footer-bottom {
+    height: 70px;
+    position: relative;
+    top: 330px;
+    background-color: #f1f1f1;
+}
+
+.footer-bottom p {
+    padding-top: 20px;
+    margin-left: 150px;
+    font-size: 12px;
+}
+
+.usage-policy {
+    color: blue;
+    cursor: pointer;
+}
+.student-and-project-introduction{
+    background-color: #0c500b;
+}
+.student-introduction ul{
+    list-style-type: none;
+}
+.student-introduction ul li{
+    margin-bottom: 15px;
+}
+.student-introduction ul li p{
+    color: rgb(209, 208, 208);
+}
+.student-introduction{
+    display: inline-block;
+    width: 24%;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.h-student-introduction{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 15px 0;
+    color: rgb(4, 146, 61);
+}
+#student-introduction-1{
+    margin-left: 150px;
+}
+#student-introduction-2{
+    position: absolute;
+}
+.content-introduction{
+    text-align: justify;
+    color: rgb(209, 208, 208);
+    font-size: 17px;
+}
+#student-introduction-3{
+    float: right;
+    margin-right: 150px;
+}
+.mxh{
+    font-size: 30px;
+    color: #000000;
+}
